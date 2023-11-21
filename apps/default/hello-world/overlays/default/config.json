@@ -1,0 +1,11 @@
+i{
+  "appName": "hello-world",
+  "userGivenName": "hello-world",
+  "destNamespace": "default",
+  "destServer": "https://kubernetes.default.svc",
+  "srcPath": "apps/hello-world/overlays/default",
+  "srcRepoURL": "https://github.com/tcaseyteleflora/argocd-lab.git",
+  "srcTargetRevision": "",
+  "labels": null,
+  "annotations": null
+}
