@@ -19,7 +19,7 @@ spec:
       serviceAccountName: jenkins-admin
       containers:
         - name: jenkins
-          image: jenkins/jenkins:lts
+          image: infrastructure-docker-virtual.repo.teleflora.org/jenkins/jenkins:2.414.3-lts
           resources:
             limits:
               memory: "2Gi"
