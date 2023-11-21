@@ -23,6 +23,14 @@ spec:
     - ReadWriteOnce
   local:
     path: /mnt/jenkins
+  nodeAffinity:
+    required:
+      nodeSelectorTerms:
+      - matchExpressions:
+        - key: kubernetes.io/hostname
+          operator: In
+          values:
+          - lima-rancher-desktop
 
 ---
 apiVersion: v1
