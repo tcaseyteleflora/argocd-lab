@@ -1,0 +1,8 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+configMapGenerator:
+- behavior: merge
+  name: argocd-cm
+kind: Kustomization
+namespace: argocd
+resources:
+- github.com/argoproj/argo-cd/manifests/cluster-install?ref=v2.9.0
