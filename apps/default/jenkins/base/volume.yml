@@ -30,7 +30,7 @@ spec:
         - key: kubernetes.io/hostname
           operator: In
           values:
-          - lima-rancher-desktop
+          - office-rig
 
 ---
 apiVersion: v1
