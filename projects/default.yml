@@ -36,7 +36,7 @@ spec:
   generators:
   - git:
       files:
-      - path: apps/**/default/config.json
+      - path: apps/default/**/default/config.json
       repoURL: https://github.com/tcaseyteleflora/argocd-lab.git
       requeueAfterSeconds: 20
       revision: ""
@@ -47,7 +47,7 @@ spec:
           project: ""
   - git:
       files:
-      - path: apps/**/default/config_dir.json
+      - path: apps/default/**/default/config_dir.json
       repoURL: https://github.com/tcaseyteleflora/argocd-lab.git
       requeueAfterSeconds: 20
       revision: ""
